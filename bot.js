@@ -182,7 +182,8 @@ client.on("message", message => {
   └─**+help-quran**
 
  ══════════ஜ۩۞۩ஜ════════════
-
+This bot was created as a gift to To leader NetWork
+From KingX Server https://discord.gg/W6Rqz2W
   `)
   .setFooter('Requested by '+message.author.username, message.author.avatarURL)
      
@@ -1298,6 +1299,8 @@ message.react("😵")
   └─ لي عرض صوره السيرفر**
 
 ══════════ஜ۩۞۩ஜ════════════
+This bot was created as a gift to To leader NetWork
+From KingX Server https://discord.gg/W6Rqz2W
 `)
  .setFooter('Requested by '+message.author.username, message.author.avatarURL)
  
@@ -3611,10 +3614,8 @@ client.on("message", message => {
 
 ══════════ஜ۩۞۩ஜ════════════ 
 
-**:link: | الموقع الخاص بالبوت :** http://darknessxd.tk/WebSite/index.html
-🔗 **| دعوة البوت** : https://discordapp.com/oauth2/authorize?client_id=459725014237970492&scope=bot&permissions=2146958583
-:exclamation:  **| لدعوة البوت ** : +invite
-:exclamation:  **| لأرسال اقتراح لصاحب البوت** : +sug
+This bot was created as a gift to To leader NetWork
+From KingX Server https://discord.gg/W6Rqz2W
  `)
  .setFooter('Requested by '+message.author.username, message.author.avatarURL)
   
@@ -4248,7 +4249,8 @@ client.on("message", message => {
   └─ لأرسال صراحة مع ذكر اسم المصارح**
  
 ══════════ஜ۩۞۩ஜ════════════ 
-
+This bot was created as a gift to To leader NetWork
+From KingX Server https://discord.gg/W6Rqz2W
 `)
  .setFooter('Requested by '+message.author.username, message.author.avatarURL)
   
