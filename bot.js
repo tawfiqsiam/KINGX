@@ -23,7 +23,7 @@ var guilds = {};
 
 
 client.on('ready',  () => {
-  client.user.setPresence({ game: { name: '،KingX Server', type: 2 } });
+  client.user.setPresence({ game: { name: 'Universe Town', type: 2 } });
 });
 
 
