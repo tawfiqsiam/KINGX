@@ -23,8 +23,8 @@ var guilds = {};
 
 
 client.on('ready',  () => {
-  client.user.setPresence({ game: { name: 'Leaders Network | +help', type: 2 } });
-});
+  client.user.setPresence({ game: { name: 'Universe Town', type: 2 } });
+
 
 
 client.on('message', message => {
