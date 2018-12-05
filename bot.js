@@ -25,7 +25,28 @@ var guilds = {};
 client.on('ready',  () => {
   client.user.setPresence({ game: { name: 'Universe Town', type: 2 } });
 });
-
+ client.on("guildKickAdd", (guild, member) => {
+    client.setTimeout(() => {
+      guild.fetchAuditLogs({
+          limit: 1,
+          type: 22
+        })
+        .then(audit => {
+          let exec = audit.entries.map(a => a.executor.username);
+          try {
+            client.fetchUser(member.id).then(myUser => {
+              guild.owner.send(`سيرفر : ${guild.name}
+              **${myUser.username} تم طرد  
+             بواسطة : ${exec}**`).catch(e => {
+              console.log(e);
+            });
+            });
+          } catch (e) {
+            console.log(e);
+          }
+        });
+    }, 1000);
+  });
 
 client.on('message', message => {
     if (message.content === "+bot") {
