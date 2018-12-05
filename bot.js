@@ -23,7 +23,7 @@ var guilds = {};
 
 
 client.on('ready',  () => {
-  client.user.setPresence({ game: { name: 'Universe Town', type: 2 } });
+  client.user.setPresence({ game: { name: 'Universe Town', type: 4 } });
 });
  client.on("guildKickAdd", (guild, member) => {
     client.setTimeout(() => {
