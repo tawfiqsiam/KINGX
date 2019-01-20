@@ -93,7 +93,7 @@ client.on('message', message => {
     if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('+Star1')){
-if (message.author.id !== '479645782119809024') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '535544621514883093') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 message.channel.sendMessage('sending the dm |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
